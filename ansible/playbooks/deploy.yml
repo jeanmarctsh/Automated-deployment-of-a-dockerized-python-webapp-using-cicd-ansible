@@ -3,9 +3,12 @@
 ---
 - name: app deployment
   hosts: workers
-  gather_facts: no
+  gather_facts: true
   become: true 
 
   roles:
-    - deploy_app
+  
+    - role: deploy_app
+      tags: deploy
+
 

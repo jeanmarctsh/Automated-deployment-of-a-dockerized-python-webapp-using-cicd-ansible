@@ -1,6 +1,13 @@
 ---
 # defaults file for deploy_app && Variables modifiables
 deploy_app_port: 8501
-user_owner: rua
-user_group: "{{user_owner}}"
-working_path: /opt/streamlit_app/
+deploy_app_name: streamlit
+phpmyadmin_port: 3306
+working_path: "/opt/streamlit_app"
+registry_url: "https://index.docker.io/v1/"
+system_user_owner: "root"
+system_user_group: "{{system_user_owner}}"
+permission_mode: 0775
+image_name: "marco24561/my-app2"
+image_tag: 1.1
+app_build_path: "{{ playbook_dir }}/../.."

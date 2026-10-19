@@ -1,4 +1,5 @@
 ---
 
-ansible_python_interpreter: /usr/bin/python3
-ansible_user: rua
+
+timezone: Africa/Kinshasa
+country: DR_Congo
