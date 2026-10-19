@@ -1,4 +1,5 @@
 Pipeline CI/CD for containerizing and automating the deployment of a Streamlit application using Docker, GitLab CI/CD, and Ansible.
+
 # 🚧 **Project Status: Under Development**
 
 This project is currently under development. The repository structure, CI/CD pipeline, and deployment automation are being progressively implemented and tested.
